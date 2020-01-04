@@ -1,0 +1,72 @@
+/* reset */
+body {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.05em;
+}
+
+input, button {
+    letter-spacing: 0.05em;
+    outline: none;
+}
+
+li, ol {
+    list-style: none;
+}
+
+/* site */
+.site-hidden-title {
+    display: none;
+}
+
+.site-navbar, .site-footer {
+    padding: 0.5em 1em;
+    background-color: coral;
+}
+
+.site-navbar .site-navbar_menu {
+    display: flex;
+}
+
+.site-navbar .site-navbar_menu > .site-navbar_menu-item {
+    margin: 0 0 0 3em;
+}
+
+.site-navbar .site-navbar_menu > .site-navbar_menu-item:nth-child(1) {
+    margin: 0;
+}
+
+.site-wrapper_section {
+    padding: 8em 2em 4em 2em;
+    text-align: justify;
+    background-image: url(https://prodesign.in.ua/wp-content/uploads/1_IMAGE_time_management.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.site-wrapper_section p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.site-form.contact-form {
+    display: flex;
+}
+
+.site-form > .site-form_field-box,
+.site-form > .site-form_submit-box {
+    border: none;
+}
+
+.site-form > .site-form_field-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-form > .site-form_field-box > input {
+    margin-top: calc(1.5em + 2.5px);
+}
+
+.site-form > .site-form_submit-box > button {
+    margin: 50%;
+}
